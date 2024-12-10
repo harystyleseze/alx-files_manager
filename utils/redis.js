@@ -1,7 +1,6 @@
 import { createClient } from 'redis';
 import { promisify } from 'util';
 
-
 // Class to define methods for commonly used Redis commands
 class RedisClient {
   constructor() {
